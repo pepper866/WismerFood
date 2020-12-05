@@ -39,7 +39,7 @@ public class homepage extends AppCompatActivity {
 
     View.OnClickListener tresListener = new View.OnClickListener() {
         public void onClick(View v){
-            //Change the page to the Grill
+            //Change the page to the tres
             Intent intent = new Intent(this, tresMenu.class);
             startActivity(intent);
         }
@@ -47,7 +47,7 @@ public class homepage extends AppCompatActivity {
 
     View.OnClickListener jasminListener = new View.OnClickListener() {
         public void onClick(View v){
-            //Change the page to the Grill
+            //Change the page to jazzmans
             Intent intent = new Intent(this, jasminMenu.class);
             startActivity(intent);
         }
@@ -55,7 +55,7 @@ public class homepage extends AppCompatActivity {
 
     View.OnClickListener subListener = new View.OnClickListener() {
         public void onClick(View v){
-            //Change the page to the Grill
+            //Change the page to subconnection
             Intent intent = new Intent(this, subMenu.class);
             startActivity(intent);
         }
